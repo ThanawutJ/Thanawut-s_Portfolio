@@ -1,6 +1,7 @@
 # Data analyst Port folio : Thanawut J.
+
 ## Project 1 : Analyzing American Baby Name Trends 
-1. Classic American names
+### 1. Classic American names
 Lots of name tags piled on top of each other.
 
 ![https://assets.datacamp.com/production/project_1441/img/name.jpg](image)
