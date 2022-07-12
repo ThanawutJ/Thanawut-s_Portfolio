@@ -2,7 +2,7 @@
 ### 1. Classic American names
 Lots of name tags piled on top of each other.
 
-![](image)
+![https://github.com/ThanawutJ/Thanawut-s_Portfolio/blob/main/image/name.jpg](image)
 
 Photo by Travis Wise on Wikimedia.
 
@@ -18,4 +18,11 @@ sex	varchar	sex of babies given first_name
 num	int	number of babies of sex given first_name in that year
 Let's get oriented to American baby name tastes by looking at the names that have stood the test of time!
 
+---sql
+SELECT first_name,sum(num)
+FROM baby_names
+GROUP BY first_name
+HAVING COUNT(*) = 101
+ORDER BY sum(num) desc,first_name
+---
 
