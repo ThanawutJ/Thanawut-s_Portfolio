@@ -3,7 +3,7 @@
 1. Classic American names
 Lots of name tags piled on top of each other.
 
-image.png
+![https://assets.datacamp.com/production/project_1441/img/name.jpg](image)
 
 Photo by Travis Wise on Wikimedia.
 
