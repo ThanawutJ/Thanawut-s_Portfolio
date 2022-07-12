@@ -1,10 +1,8 @@
-# Data analyst Port folio : Thanawut J.
-
-## Project 1 : Analyzing American Baby Name Trends 
+# Project 1 : Analyzing American Baby Name Trends 
 ### 1. Classic American names
 Lots of name tags piled on top of each other.
 
-![https://assets.datacamp.com/production/project_1441/img/name.jpg](image)
+![](image)
 
 Photo by Travis Wise on Wikimedia.
 
@@ -20,16 +18,4 @@ sex	varchar	sex of babies given first_name
 num	int	number of babies of sex given first_name in that year
 Let's get oriented to American baby name tastes by looking at the names that have stood the test of time!
 
-%%sql
-postgresql:///names
-    
--- Select first names and the total babies with that first_name
--- Group by first_name and filter for those names that appear in all 101 years
--- Order by the total number of babies with that first_name, descending
-
-SELECT first_name,sum(num)
-FROM baby_names
-GROUP BY first_name
-HAVING COUNT(*) = 101
-ORDER BY sum(num) desc,first_name
 
